@@ -535,7 +535,8 @@ section.contact .card:hover .img3 {
   background: rgb(43, 59, 60);
   width: 30%;
   height: 101%;
-  padding: 2rem;
+  padding: 2rem 0;
+  padding-right: 2%;
   padding-top: 5rem;
   transform: translateX(350%);
   /* -webkit-transform: translateX(100%);
@@ -690,7 +691,7 @@ section.services .card p:hover {
   }
 } */
 
-@media (max-width: 1024px) {
+@media  (max-width: 1024px) {
   #main-nav {
     display: none;
   }
